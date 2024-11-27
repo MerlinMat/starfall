@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+    background: #016600;
+    padding: 11px 0;
+    position: relative;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    height: 77px;
+  }
+.logo{
+    width: 30%;
+    height: 61px;
+    margin-top: 5px;
+    float: left;
+}
+ .logo-image{
+    max-width: 190px;
+    display: block;
+    color: -webkit-link;
+    cursor: pointer;
+    padding-left: 88px;
+    padding-top: 1px;
+    float: left;
+ }   
+ .menubar{
+    position: absolute;
+    width: 3.5px;
+    height: 79%;
+    left: 0;
+    border-radius: 5px;
+    width: 66%;
+    display: flex;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    float: left;
+    margin-left: 414px;
+ }
+ .tab1{
+    border-color: #98ca83;
+    background-color: #016600;
+    width: 101.5px;
+    height: 90%;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin: 0;
+    border-left-width: 3px;
+    border-right-width: 2px;
+    color: #fdfefd;
+    font-size: 24px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-family: 'VAGzStarBold';
+    font-weight: 400;  
+      cursor: pointer;
+}
+.tab2{
+    border-color: #98ca83;
+    width:286px;
+    background-color: #016600;
+    height: 90%;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-right-width: 1px;
+    color: #fdfefd;
+    font-size: 24px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-family: 'VAGzStarBold';
+    font-weight: 400;
+    cursor: pointer;
+}
+.tab3{
+    border-color: #98ca83;
+    width:163px;
+    background-color: #016600;
+    height: 90%;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-right-width: 2px;
+    color: #fdfefd;
+    font-size: 24px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-family: 'VAGzStarBold';
+    font-weight: 400; 
+    cursor: pointer;
+}
+.tab4{
+    border-color: #98ca83;
+    width:108px;
+    background-color: #016600;
+    height: 90%;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-right-width: 4px;
+    color: #fdfefd;
+    font-size: 24px;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-family: 'VAGzStarBold';
+    font-weight: 400; 
+    cursor: pointer;
+}
+.tab5{
+    width: 46px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 50px;
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-top: 14px;
+}
+span{
+    width: 100%;
+    background: #fff;
+    height: 4px;
+    display: block;
+    margin: 0 0 7px;
+    transition: 0.3s;
+   
+}
+.grade-images{
+   height: 423px;
+   position: relative;
+  top: 0;
+  left: 0;
+}
+.backgroundimage{
+    width:100%;
+    height: 423px;
+    position: relative;
+  top: 0;
+  left: 0;
+}
+.image1{
+    margin: 36px 167px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    height: 251px;  
+    cursor: pointer; 
+}
+.image2{
+    margin: 36px 493px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    height: 251px;   
+    cursor: pointer; 
+}
+.image3{
+    margin: 36px 825px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    height: 251px;  
+    cursor: pointer; 
+}
+.banner{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    height: 32px;
+    margin-top: 382px;
+    padding-bottom: 10px;
+    width: 100%;
+   
+}
+.accessibility{
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 21px;
+    float: left;
+    position: relative;
+    margin-top: -11px;
+    margin-left: 323px;
+    cursor: pointer; 
+}
+.accessibility:hover{
+    color: black;
+}
+li span{
+    font-size: 21px;
+}
+.about{
+    cursor: pointer; 
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 21px;
+    float: left;
+    position: relative;
+    margin-left: 34px;
+    margin-top: -11px;
+    border-radius: 50px;
+}
+.about:hover{
+    color: black;
+}
+.help{
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 20px;
+    float: left;
+    position: relative;
+    margin-top:-11px;
+    margin-left:29px;
+    cursor: pointer; 
+}
+.help:hover{
+    color: black;
+}
+.contact{
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 20px;
+    float: left;
+    position: relative;
+    margin-top:-11px;
+    margin-left: 30px;
+    cursor: pointer; 
+}
+.contact:hover{
+    color: black;
+}
+.terms{
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 20px;
+    float: left;
+    position: relative;
+    margin-top:-11px;
+    margin-left:30px;
+    cursor: pointer; 
+}
+.terms:hover{
+    color: black;
+}
+.privacy{
+    color: #0331ba;
+    font-family: 'liberation_sansbold';
+    font-size: 20px;
+    float: left;
+    position: relative;
+    margin-top:-11px;
+    margin-left:30px;
+    cursor: pointer; 
+}
+.privacy:hover{
+    color: black;
+}
+.final{
+    height: 212px;
+    background-color: #78e22a;
+}
+.block1{
+    padding: 0px 0px 15px 0px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 130px;
+ 
+}
+.block2{
+   width: 90%;
+}
+.para1{
+    top: 50%;
+    left: 50%;
+    transform: translate(8%, -62%);
+    margin-top: 14px;
+    color: #003300;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Liberation Sans Regular';
+    margin-left: -2px;
+}
+.block3{
+    height: 100px;
+    padding-top: 40px;
+    margin-top: -71px;
+    background-color: #78e22a;
+    padding-left: 84px;
+    color: #003300;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Liberation Sans Regular';
+}
+.read{
+    margin-left: -4px;
+    color: #0331ba;
+    border: 0;
+    background-color: #78e22a;
+    display: inline-block;
+    cursor: pointer;
+}
+.block4{
+    background-color: white;
+    width: 100%;
+    padding-top: 19px;
+    height: 57px;
+    margin-top: -4px;
+    background-color: #78e22a;
+}
+.footer{
+    margin-top: -8px;
+    max-width: 850px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0;
+    font-family: 'Liberation Sans Regular';
+    margin-left: 205px;
+    color: #003300;
+}
+
+
+
